@@ -1,2 +1,2 @@
-# openCV Course
+# OpenCV Course
  

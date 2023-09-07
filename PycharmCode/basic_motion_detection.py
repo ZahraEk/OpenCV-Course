@@ -12,7 +12,7 @@ dilate_kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (9, 9))
 cap = cv2.VideoCapture("videos/pedestrians.avi")
 
 # Define the output video file name and codec
-output_file = "videos/BasicDetection.avi"
+output_file = "videos/BasicDetection_pedestrians.avi"
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 
 # Get the frame dimensions
